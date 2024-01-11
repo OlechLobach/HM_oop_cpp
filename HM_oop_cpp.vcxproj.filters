@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{71ced4ff-fdac-4bb9-a9e3-f0f083801579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="string">
+      <UniqueIdentifier>{ea3e1724-22d2-4fc1-ba30-216cd3a24930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bitstring">
+      <UniqueIdentifier>{2dcc1646-cb2f-4139-98b9-a9022aaeadd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="string.cpp">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="bitstring.cpp">
+      <Filter>bitstring</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="string.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="bitstring.h">
+      <Filter>bitstring</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
