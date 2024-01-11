@@ -15,18 +15,18 @@
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
-    <ClCompile Include="string.cpp">
+    <ClCompile Include="mystring.cpp">
       <Filter>string</Filter>
     </ClCompile>
-    <ClCompile Include="bitstring.cpp">
+    <ClCompile Include="mybitstring.cpp">
       <Filter>bitstring</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="string.h">
+    <ClInclude Include="mystring.h">
       <Filter>string</Filter>
     </ClInclude>
-    <ClInclude Include="bitstring.h">
+    <ClInclude Include="mybitstring.h">
       <Filter>bitstring</Filter>
     </ClInclude>
   </ItemGroup>

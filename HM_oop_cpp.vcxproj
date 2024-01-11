@@ -127,13 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bitstring.cpp" />
+    <ClCompile Include="mybitstring.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="string.cpp" />
+    <ClCompile Include="mystring.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bitstring.h" />
-    <ClInclude Include="string.h" />
+    <ClInclude Include="mybitstring.h" />
+    <ClInclude Include="mystring.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
